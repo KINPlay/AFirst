@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Manager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Receiver.h">
+      <Filter>Receiver</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameServer.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Manager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Receiver.cpp">
+      <Filter>Receiver</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker.cpp">
+      <Filter>Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="Listener.cpp">
+      <Filter>Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{c7e6698a-f02e-4402-aa0f-615b4d7f4e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Listener">
+      <UniqueIdentifier>{6a9fff27-4ee8-496e-9332-d00d954eb9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Worker">
+      <UniqueIdentifier>{25c6e4ba-65a0-40ad-a5da-821d0e098927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Receiver">
+      <UniqueIdentifier>{aa81cf47-9ace-4c80-b156-b33f661e6f4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
