@@ -21,4 +21,12 @@ void Manager::Run()
 	HTTPRequest request(HTTPRequest::HTTP_GET, "/ws");
 	HTTPResponse response;
 	WebSocket ws(cs, request, response);
+	std::string outString("text");
+	ws.sendFrame(outString.c_str(), outString.length());
+
+
+	char buffer[1024];
+	int flags;
+	int n = ws.receiveFrame(buffer, sizeof(buffer), flags);
+
 }
